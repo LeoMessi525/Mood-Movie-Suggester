@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Mood Movie Suggester</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>What's Your Mood?</h1>
+    <select id="moodSelector">
+      <option value="">--Choose a mood--</option>
+      <option value="happy">Happy</option>
+      <option value="sad">Sad</option>
+      <option value="bored">Bored</option>
+      <option value="inspired">Inspired</option>
+    </select>
+    <button onclick="suggestMovie()">Suggest Movie</button>
+
+    <div id="suggestion"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
